@@ -11,7 +11,8 @@
     <script type="text/javascript">
      var map = d3.geomap.choropleth().geofile('/d3-geomap/topojson/world/countries.json')
       .colors(['green','blue'])
-      .column('visited')
+      .column('1800')
+      .domain([0,1])
       .legend(false)
       .unitId('iso3')
      
