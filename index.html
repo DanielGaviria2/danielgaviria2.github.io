@@ -9,7 +9,7 @@
   <body>
     <div id="map"></div>
     <script type="text/javascript">
-     var map = d3.geomap().choropleth().geofile('/d3-geomap/topojson/world/countries.json')
+     var map = d3.geomap.choropleth().geofile('/d3-geomap/topojson/world/countries.json')
       .colors(['green','blue'])
       .column('visited')
       .legend(false)
